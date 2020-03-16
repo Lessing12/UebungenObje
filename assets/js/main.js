@@ -39,3 +39,12 @@ let BeNeLuxUnion = {
     Luxemburg: "LU",
 }
 console.log(BeNeLuxUnion);
+
+
+let person = {
+    name: "Marcin",
+    alter: "33",
+    sagName: function () {
+        console.log(`Das ist ${person.name} und er ist ${person.alter}`)
+    }
+}
